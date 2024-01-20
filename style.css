@@ -1,0 +1,65 @@
+header {
+    background-color: #333;
+ color:aliceblue;
+ font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+.main {
+   background-color: aqua;
+height: auto;
+}
+
+footer {
+   background-color: #333;
+   height: 200px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topNavLi {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+  
+}
+
+.topNavLi a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.topNavLi a:hover {
+    color: aqua;
+}
+
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+
+}
+
+.imgLanding {
+  padding: 10%;  
+  
+}
+
+.into {
+    padding: 10%;
+    font-size: 20px;
+    font-family: 'Jacques Francois', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Rubik Burned', system-ui;
+}
+
